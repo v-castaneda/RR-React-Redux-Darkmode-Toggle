@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <button onClick={() => dispatch(fetchData())}>Click</button>
+        <button onClick={() => dispatch(fetchData())}>Thunk!</button>
         <button onClick={() => dispatch(clearData())}>Clear</button>
         <button onClick={() => dispatch(incrementId())}>Next</button>
         <button onClick={() => dispatch(decrementId())}>Back</button>
